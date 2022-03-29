@@ -1,0 +1,45 @@
+{
+  "date": {
+    "year": 2022,
+    "month": 3,
+    "day": 23
+  },
+  "tipsSent": 21,
+  "tipsReceived": 15,
+  "xpSent": 1050,
+  "xpReceived": 900,
+  "gameStatistics": {
+    "Turbo Kart Racers": {
+      "coinsSent": 15,
+      "coinsReceived": 100
+    },
+    "VampireZ": {
+      "coinsSent": 15,
+      "coinsReceived": 100
+    },
+    "UHC Champions": {
+      "coinsSent": 15,
+      "coinsReceived": 0
+    },
+    "Warlords": {
+      "coinsSent": 0,
+      "coinsReceived": 200
+    },
+    "Blitz SG": {
+      "coinsSent": 15,
+      "coinsReceived": 100
+    },
+    "Quakecraft": {
+      "coinsSent": 15,
+      "coinsReceived": 100
+    },
+    "Paintball Warfare": {
+      "coinsSent": 15,
+      "coinsReceived": 100
+    },
+    "The Walls": {
+      "coinsSent": 15,
+      "coinsReceived": 100
+    }
+  }
+}

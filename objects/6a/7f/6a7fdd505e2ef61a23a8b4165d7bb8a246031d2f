@@ -1,0 +1,41 @@
+{
+  "date": {
+    "year": 2022,
+    "month": 3,
+    "day": 25
+  },
+  "tipsSent": 11,
+  "tipsReceived": 3,
+  "xpSent": 550,
+  "xpReceived": 180,
+  "gameStatistics": {
+    "Turbo Kart Racers": {
+      "coinsSent": 15,
+      "coinsReceived": 0
+    },
+    "VampireZ": {
+      "coinsSent": 15,
+      "coinsReceived": 0
+    },
+    "The TNT Games": {
+      "coinsSent": 15,
+      "coinsReceived": 0
+    },
+    "Arcade Games": {
+      "coinsSent": 38,
+      "coinsReceived": 0
+    },
+    "Quakecraft": {
+      "coinsSent": 15,
+      "coinsReceived": 0
+    },
+    "Paintball Warfare": {
+      "coinsSent": 15,
+      "coinsReceived": 0
+    },
+    "The Walls": {
+      "coinsSent": 15,
+      "coinsReceived": 0
+    }
+  }
+}

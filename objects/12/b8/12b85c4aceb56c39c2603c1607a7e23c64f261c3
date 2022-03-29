@@ -1,0 +1,7 @@
+{
+  "servers": {
+    "mc.hypixel.io:25565": {
+      "forcedProtocol": 757
+    }
+  }
+}

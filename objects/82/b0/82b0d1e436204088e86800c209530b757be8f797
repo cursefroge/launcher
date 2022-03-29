@@ -1,0 +1,86 @@
+{
+  "petMap": {
+    "0": {
+      "petType": "JERRY",
+      "rarity": "EPIC",
+      "petLevel": {
+        "level": 12.115635,
+        "currentLevelRequirement": 1260.0,
+        "maxXP": 1.86085E7,
+        "levelPercentage": 0.11563492,
+        "levelXp": 145.7,
+        "totalXp": 8445.7
+      },
+      "petXpType": "combat"
+    },
+    "1": {
+      "petType": "ROCK",
+      "rarity": "RARE",
+      "petLevel": {
+        "level": 49.2663,
+        "currentLevelRequirement": 23200.0,
+        "maxXP": 1.2626665E7,
+        "levelPercentage": 0.26630172,
+        "levelXp": 6178.2,
+        "totalXp": 237643.2
+      },
+      "petXpType": "mining"
+    },
+    "2": {
+      "petType": "ENDERMAN",
+      "rarity": "RARE",
+      "petLevel": {
+        "level": 29.627924,
+        "currentLevelRequirement": 3420.0,
+        "maxXP": 1.2626665E7,
+        "levelPercentage": 0.62792397,
+        "levelXp": 2147.5,
+        "totalXp": 37392.5
+      },
+      "petXpType": "combat"
+    },
+    "3": {
+      "petType": "ARMADILLO",
+      "rarity": "RARE",
+      "petLevel": {
+        "level": 23.841476,
+        "currentLevelRequirement": 2130.0,
+        "maxXP": 1.2626665E7,
+        "levelPercentage": 0.84147686,
+        "levelXp": 1792.3457,
+        "totalXp": 21317.346
+      },
+      "petXpType": "mining"
+    },
+    "4": {
+      "petType": "GRANDMA_WOLF",
+      "rarity": "UNCOMMON",
+      "petLevel": {
+        "level": 38.868336,
+        "currentLevelRequirement": 4750.0,
+        "maxXP": 8644220.0,
+        "levelPercentage": 0.86833686,
+        "levelXp": 4124.6,
+        "totalXp": 55894.6
+      },
+      "petXpType": "combat"
+    },
+    "5": {
+      "petType": "GRIFFIN",
+      "rarity": "COMMON",
+      "petLevel": {
+        "level": 1.0,
+        "currentLevelRequirement": 100.0,
+        "maxXP": 5624785.0,
+        "levelPercentage": 0.0,
+        "levelXp": 0.0,
+        "totalXp": 0.0
+      },
+      "petXpType": "combat"
+    }
+  },
+  "selectedPet": -1,
+  "selectedPet2": -1,
+  "tamingLevel": 12,
+  "beastMultiplier": 0.0
+}

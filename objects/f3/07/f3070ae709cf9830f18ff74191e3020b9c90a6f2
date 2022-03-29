@@ -1,0 +1,16 @@
+
+[general]
+
+	[general.notification]
+		ping_when_done = true
+		ping_when_ready = true
+		notification_corner = 1
+		chat_message = true
+
+	[general.general]
+		enabled = true
+
+	[general.time]
+		"break_duration_(seconds)" = 20
+		"minutes_in_between_(minutes)" = 20
+
