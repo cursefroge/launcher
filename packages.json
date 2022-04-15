@@ -1,0 +1,19 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : "PurpurClient",
+      "name" : "purpurclient",
+      "version" : "2022-04-10-09-26-27",
+      "location" : "purpurclient.json",
+      "priority" : 2
+    },
+    {
+      "title" : "Endstone Client",
+      "name" : "endstoneclient",
+      "version" : "2022-04-03-19-11-49",
+      "location" : "endstoneclient.json",
+      "priority" : 0
+    }
+  ]
+}
