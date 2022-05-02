@@ -1,0 +1,157 @@
+execute in minecraft:the_end run kill @e[type=minecraft:end_crystal]
+
+execute in minecraft:the_end run setblock 0 30 0 minecraft:structure_block
+execute in minecraft:the_end run data merge block 0 30 0 {name:"end-practice:gravelssg_1","mode":"LOAD","ignoreEntities":0b,"posX":0,"posY":2,"posZ":0}
+execute in minecraft:the_end run setblock 0 31 0 minecraft:redstone_block
+execute in minecraft:the_end run setblock 0 31 0 minecraft:air
+execute in minecraft:the_end run setblock 0 30 0 minecraft:air
+
+execute in minecraft:the_end run setblock -1 30 0 minecraft:structure_block
+execute in minecraft:the_end run data merge block -1 30 0 {name:"end-practice:gravelssg_2","mode":"LOAD","ignoreEntities":0b,"posX":-47,"posY":2,"posZ":0}
+execute in minecraft:the_end run setblock -1 31 0 minecraft:redstone_block
+execute in minecraft:the_end run setblock -1 31 0 minecraft:air
+execute in minecraft:the_end run setblock -1 30 0 minecraft:air
+
+execute in minecraft:the_end run setblock -1 30 -1 minecraft:structure_block
+execute in minecraft:the_end run data merge block -1 30 -1 {name:"end-practice:gravelssg_3","mode":"LOAD","ignoreEntities":0b,"posX":-47,"posY":2,"posZ":-47}
+execute in minecraft:the_end run setblock -1 31 -1 minecraft:redstone_block
+execute in minecraft:the_end run setblock -1 31 -1 minecraft:air
+execute in minecraft:the_end run setblock -1 30 -1 minecraft:air
+
+execute in minecraft:the_end run setblock 0 30 -1 minecraft:structure_block
+execute in minecraft:the_end run data merge block 0 30 -1 {name:"end-practice:gravelssg_4","mode":"LOAD","ignoreEntities":0b,"posX":0,"posY":2,"posZ":-47}
+execute in minecraft:the_end run setblock 0 31 -1 minecraft:redstone_block
+execute in minecraft:the_end run setblock 0 31 -1 minecraft:air
+execute in minecraft:the_end run setblock 0 30 -1 minecraft:air
+
+execute in minecraft:the_end run setblock 1 128 1 minecraft:structure_block
+execute in minecraft:the_end run data merge block 1 128 1 {name:"end-practice:gravelssg_5","mode":"LOAD","ignoreEntities":0b,"posX":-1,"posY":-48,"posZ":-1}
+execute in minecraft:the_end run setblock 1 129 1 minecraft:redstone_block
+execute in minecraft:the_end run setblock 1 129 1 minecraft:air
+execute in minecraft:the_end run setblock 1 128 1 minecraft:air
+
+execute in minecraft:the_end run setblock -2 128 1 minecraft:structure_block
+execute in minecraft:the_end run data merge block -2 128 1 {name:"end-practice:gravelssg_6","mode":"LOAD","ignoreEntities":0b,"posX":-46,"posY":-48,"posZ":-1}
+execute in minecraft:the_end run setblock -2 129 1 minecraft:redstone_block
+execute in minecraft:the_end run setblock -2 129 1 minecraft:air
+execute in minecraft:the_end run setblock -2 128 1 minecraft:air
+
+execute in minecraft:the_end run setblock -2 128 -2 minecraft:structure_block
+execute in minecraft:the_end run data merge block -2 128 -2 {name:"end-practice:gravelssg_7","mode":"LOAD","ignoreEntities":0b,"posX":-46,"posY":-48,"posZ":-46}
+execute in minecraft:the_end run setblock -2 129 -2 minecraft:redstone_block
+execute in minecraft:the_end run setblock -2 129 -2 minecraft:air
+execute in minecraft:the_end run setblock -2 128 -2 minecraft:air
+
+execute in minecraft:the_end run setblock 1 128 -2 minecraft:structure_block
+execute in minecraft:the_end run data merge block 1 128 -2 {name:"end-practice:gravelssg_8","mode":"LOAD","ignoreEntities":0b,"posX":-1,"posY":-48,"posZ":-46}
+execute in minecraft:the_end run setblock 1 129 -2 minecraft:redstone_block
+execute in minecraft:the_end run setblock 1 129 -2 minecraft:air
+execute in minecraft:the_end run setblock 1 128 -2 minecraft:air
+
+execute in minecraft:the_end run setblock -1 30 47 minecraft:structure_block
+execute in minecraft:the_end run data merge block -1 30 47 {name:"end-practice:gravelssg_9","mode":"LOAD","ignoreEntities":0b,"posX":-47,"posY":2,"posZ":1}
+execute in minecraft:the_end run setblock -1 31 47 minecraft:redstone_block
+execute in minecraft:the_end run setblock -1 31 47 minecraft:air
+execute in minecraft:the_end run setblock -1 30 47 minecraft:air
+
+execute in minecraft:the_end run setblock 0 30 47 minecraft:structure_block
+execute in minecraft:the_end run data merge block 0 30 47 {name:"end-practice:gravelssg_10","mode":"LOAD","ignoreEntities":0b,"posX":0,"posY":2,"posZ":1}
+execute in minecraft:the_end run setblock 0 31 47 minecraft:redstone_block
+execute in minecraft:the_end run setblock 0 31 47 minecraft:air
+execute in minecraft:the_end run setblock 0 30 47 minecraft:air
+
+execute in minecraft:the_end run setblock 1 30 47 minecraft:structure_block
+execute in minecraft:the_end run data merge block 1 30 47 {name:"end-practice:gravelssg_11","mode":"LOAD","ignoreEntities":0b,"posX":47,"posY":2,"posZ":1}
+execute in minecraft:the_end run setblock 1 31 47 minecraft:redstone_block
+execute in minecraft:the_end run setblock 1 31 47 minecraft:air
+execute in minecraft:the_end run setblock 1 30 47 minecraft:air
+
+execute in minecraft:the_end run setblock 47 30 0 minecraft:structure_block
+execute in minecraft:the_end run data merge block 47 30 0 {name:"end-practice:gravelssg_12","mode":"LOAD","ignoreEntities":0b,"posX":1,"posY":2,"posZ":0}
+execute in minecraft:the_end run setblock 47 31 0 minecraft:redstone_block
+execute in minecraft:the_end run setblock 47 31 0 minecraft:air
+execute in minecraft:the_end run setblock 47 30 0 minecraft:air
+
+execute in minecraft:the_end run setblock 47 30 -1 minecraft:structure_block
+execute in minecraft:the_end run data merge block 47 30 -1 {name:"end-practice:gravelssg_13","mode":"LOAD","ignoreEntities":0b,"posX":1,"posY":2,"posZ":-47}
+execute in minecraft:the_end run setblock 47 31 -1 minecraft:redstone_block
+execute in minecraft:the_end run setblock 47 31 -1 minecraft:air
+execute in minecraft:the_end run setblock 47 30 -1 minecraft:air
+
+execute in minecraft:the_end run setblock 1 30 -48 minecraft:structure_block
+execute in minecraft:the_end run data merge block 1 30 -48 {name:"end-practice:gravelssg_14","mode":"LOAD","ignoreEntities":0b,"posX":47,"posY":2,"posZ":-48}
+execute in minecraft:the_end run setblock 1 31 -48 minecraft:redstone_block
+execute in minecraft:the_end run setblock 1 31 -48 minecraft:air
+execute in minecraft:the_end run setblock 1 30 -48 minecraft:air
+
+execute in minecraft:the_end run setblock 0 30 -48 minecraft:structure_block
+execute in minecraft:the_end run data merge block 0 30 -48 {name:"end-practice:gravelssg_15","mode":"LOAD","ignoreEntities":0b,"posX":0,"posY":2,"posZ":-48}
+execute in minecraft:the_end run setblock 0 31 -48 minecraft:redstone_block
+execute in minecraft:the_end run setblock 0 31 -48 minecraft:air
+execute in minecraft:the_end run setblock 0 30 -48 minecraft:air
+
+execute in minecraft:the_end run setblock -1 30 -48 minecraft:structure_block
+execute in minecraft:the_end run data merge block -1 30 -48 {name:"end-practice:gravelssg_16","mode":"LOAD","ignoreEntities":0b,"posX":-47,"posY":2,"posZ":-48}
+execute in minecraft:the_end run setblock -1 31 -48 minecraft:redstone_block
+execute in minecraft:the_end run setblock -1 31 -48 minecraft:air
+execute in minecraft:the_end run setblock -1 30 -48 minecraft:air
+
+execute in minecraft:the_end run setblock 0 30 95 minecraft:structure_block
+execute in minecraft:the_end run data merge block 0 30 95 {name:"end-practice:gravelssg_17","mode":"LOAD","ignoreEntities":0b,"posX":0,"posY":2,"posZ":1}
+execute in minecraft:the_end run setblock 0 31 95 minecraft:redstone_block
+execute in minecraft:the_end run setblock 0 31 95 minecraft:air
+execute in minecraft:the_end run setblock 0 30 95 minecraft:air
+
+execute in minecraft:the_end run setblock -1 30 95 minecraft:structure_block
+execute in minecraft:the_end run data merge block -1 30 95 {name:"end-practice:gravelssg_18","mode":"LOAD","ignoreEntities":0b,"posX":-47,"posY":2,"posZ":1}
+execute in minecraft:the_end run setblock -1 31 95 minecraft:redstone_block
+execute in minecraft:the_end run setblock -1 31 95 minecraft:air
+execute in minecraft:the_end run setblock -1 30 95 minecraft:air
+
+execute in minecraft:the_end run setblock -1 30 -96 minecraft:structure_block
+execute in minecraft:the_end run data merge block -1 30 -96 {name:"end-practice:gravelssg_19","mode":"LOAD","ignoreEntities":0b,"posX":-47,"posY":2,"posZ":-48}
+execute in minecraft:the_end run setblock -1 31 -96 minecraft:redstone_block
+execute in minecraft:the_end run setblock -1 31 -96 minecraft:air
+execute in minecraft:the_end run setblock -1 30 -96 minecraft:air
+
+execute in minecraft:the_end run setblock 0 30 -96 minecraft:structure_block
+execute in minecraft:the_end run data merge block 0 30 -96 {name:"end-practice:gravelssg_20","mode":"LOAD","ignoreEntities":0b,"posX":0,"posY":2,"posZ":-48}
+execute in minecraft:the_end run setblock 0 31 -96 minecraft:redstone_block
+execute in minecraft:the_end run setblock 0 31 -96 minecraft:air
+execute in minecraft:the_end run setblock 0 30 -96 minecraft:air
+
+execute in minecraft:the_end run setblock 95 30 0 minecraft:structure_block
+execute in minecraft:the_end run data merge block 95 30 0 {name:"end-practice:gravelssg_21","mode":"LOAD","ignoreEntities":0b,"posX":1,"posY":2,"posZ":0}
+execute in minecraft:the_end run setblock 95 31 0 minecraft:redstone_block
+execute in minecraft:the_end run setblock 95 31 0 minecraft:air
+execute in minecraft:the_end run setblock 95 30 0 minecraft:air
+
+execute in minecraft:the_end run setblock 95 30 -1 minecraft:structure_block
+execute in minecraft:the_end run data merge block 95 30 -1 {name:"end-practice:gravelssg_22","mode":"LOAD","ignoreEntities":0b,"posX":1,"posY":2,"posZ":-47}
+execute in minecraft:the_end run setblock 95 31 -1 minecraft:redstone_block
+execute in minecraft:the_end run setblock 95 31 -1 minecraft:air
+execute in minecraft:the_end run setblock 95 30 -1 minecraft:air
+
+execute in minecraft:the_end run setblock -48 30 48 minecraft:structure_block
+execute in minecraft:the_end run data merge block -48 30 48 {name:"end-practice:gravelssg_23","mode":"LOAD","ignoreEntities":0b,"posX":-48,"posY":2,"posZ":0}
+execute in minecraft:the_end run setblock -48 31 48 minecraft:redstone_block
+execute in minecraft:the_end run setblock -48 31 48 minecraft:air
+execute in minecraft:the_end run setblock -48 30 48 minecraft:air
+
+execute in minecraft:the_end run setblock -48 30 47 minecraft:structure_block
+execute in minecraft:the_end run data merge block -48 30 47 {name:"end-practice:gravelssg_24","mode":"LOAD","ignoreEntities":0b,"posX":-48,"posY":2,"posZ":-47}
+execute in minecraft:the_end run setblock -48 31 47 minecraft:redstone_block
+execute in minecraft:the_end run setblock -48 31 47 minecraft:air
+execute in minecraft:the_end run setblock -48 30 47 minecraft:air
+
+execute in minecraft:the_end run setblock -48 30 -48 minecraft:structure_block
+execute in minecraft:the_end run data merge block -48 30 -48 {name:"end-practice:gravelssg_25","mode":"LOAD","ignoreEntities":0b,"posX":-48,"posY":2,"posZ":0}
+execute in minecraft:the_end run setblock -48 31 -48 minecraft:redstone_block
+execute in minecraft:the_end run setblock -48 31 -48 minecraft:air
+execute in minecraft:the_end run setblock -48 30 -48 minecraft:air
+
+execute in minecraft:the_end run setblock -48 30 -49 minecraft:structure_block
+execute in minecraft:the_end run data merge block -48 30 -49 {name:"end-practice:gravelssg_26","mode":"LOAD","ignoreEntities":0b,"posX":-48,"posY":2,"posZ":-47}
+execute in minecraft:the_end run setblock -48 31 -49 minecraft:redstone_block
+execute in minecraft:the_end run setblock -48 31 -49 minecraft:air
+execute in minecraft:the_end run setblock -48 30 -49 minecraft:air

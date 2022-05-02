@@ -1,0 +1,45 @@
+execute unless entity @e[tag=final,type=minecraft:armor_stand] if block -9 60 -9 minecraft:command_block run teleport @p -1 63 0 -90 0
+execute if entity @e[tag=final,type=minecraft:armor_stand] if block -9 60 -9 minecraft:command_block run tp @p @e[tag=final,type=minecraft:armor_stand,limit=1] 
+execute if entity @e[tag=final,type=minecraft:armor_stand] if block -9 60 -9 minecraft:command_block at @e[tag=final,type=minecraft:armor_stand,limit=1] run tp @p ~-18 ~58.5 ~1 ~180 ~
+execute if block -9 60 -9 minecraft:structure_block run teleport @p -1 63 0 -90 0
+setblock -9 59 -9 minecraft:redstone_block
+clear @a
+give @p white_bed 9
+give @p red_bed{display:{Name:'{"text":"Pride Bed","color":"dark_red","italic":false}'}}
+give @p orange_bed{display:{Name:'{"text":"Pride Bed","color":"gold","italic":false}'}}
+give @p yellow_bed{display:{Name:'{"text":"Pride Bed","color":"yellow","italic":false}'}}
+give @p green_bed{display:{Name:'{"text":"Pride Bed","color":"green","italic":false}'}}
+give @p blue_bed{display:{Name:'{"text":"Pride Bed","color":"blue","italic":false}'}}
+give @p purple_bed{display:{Name:'{"text":"Pride Bed","color":"dark_purple","italic":false}'}}
+give @p white_bed 21
+summon area_effect_cloud -12 80 0 {Tags:["hiCheater"]}
+summon area_effect_cloud -17 80 4 {Tags:["hiCheater"]}
+summon area_effect_cloud -10 83 0 {Tags:["hiCheater"]}
+summon area_effect_cloud -14 83 -1 {Tags:["hiCheater"]}
+summon area_effect_cloud -12 83 -1 {Tags:["hiCheater"]}
+summon area_effect_cloud -15 84.5 0 {Tags:["hiCheater"]}
+summon area_effect_cloud -20 85 0 {Tags:["hiCheater"]}
+summon area_effect_cloud -14 87 -2 {Tags:["hiCheater"]}
+summon area_effect_cloud -16 87 0 {Tags:["hiCheater"]}
+summon area_effect_cloud -15 87 -1 {Tags:["hiCheater"]}
+summon area_effect_cloud -13 90 1 {Tags:["hiCheater"]}
+summon area_effect_cloud -15.5 90 0 {Tags:["hiCheater"]}
+summon area_effect_cloud -12 91 0 {Tags:["hiCheater"]}
+summon area_effect_cloud -15 91 0 {Tags:["hiCheater"]}
+summon area_effect_cloud -20 94 1 {Tags:["hiCheater"]}
+summon area_effect_cloud -19 94 0 {Tags:["hiCheater"]}
+summon area_effect_cloud -16 94.8 2 {Tags:["hiCheater"]}
+summon area_effect_cloud -17 94.8 2 {Tags:["hiCheater"]}
+summon area_effect_cloud -15 94.8 0 {Tags:["hiCheater"]}
+summon area_effect_cloud -18 98 -1 {Tags:["hiCheater"]}
+summon area_effect_cloud -14 101.5 3 {Tags:["hiCheater"]}
+summon area_effect_cloud -15 101.5 0 {Tags:["hiCheater"]}
+summon area_effect_cloud -16 103 0 {Tags:["hiCheater"]}
+summon area_effect_cloud -15 103 0 {Tags:["hiCheater"]}
+summon area_effect_cloud -15 104 0 {Tags:["hiCheater"]}
+execute at @e[tag=hiCheater,limit=1,sort=random] run summon ender_dragon ~ ~ ~ {DragonPhase:3}
+execute if score dia signs matches 0..0 as @e[type=ender_dragon] at @s run teleport @s ~5 ~ ~-10
+kill @e[tag=hiCheater]
+gamemode survival @a
+bossbar set minecraft:dragon visible true
+setblock 12 64 -44 minecraft:birch_button[face=floor]

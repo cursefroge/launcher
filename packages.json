@@ -4,14 +4,21 @@
     {
       "title" : "PurpurClient",
       "name" : "purpurclient",
-      "version" : "2022-04-10-09-26-27",
+      "version" : "2022-05-01-08-46-50",
       "location" : "purpurclient.json",
       "priority" : 2
     },
     {
+      "title" : "Chorusfruit",
+      "name" : "chorusfruit",
+      "version" : "2022-05-02-08-57-05",
+      "location" : "chorusfruit.json",
+      "priority" : 1
+    },
+    {
       "title" : "Endstone Client",
       "name" : "endstoneclient",
-      "version" : "2022-04-03-19-11-49",
+      "version" : "2022-04-29-16-26-41",
       "location" : "endstoneclient.json",
       "priority" : 0
     }

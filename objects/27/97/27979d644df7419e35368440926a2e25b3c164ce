@@ -1,0 +1,4 @@
+clone -8 0 -8 8 15 8 10 0 -9
+kill @e[tag=final,type=armor_stand]
+execute as @e[type=armor_stand,tag=spawn] at @s run tp @s ~18 ~ ~-1
+tag @e[tag=spawn,type=armor_stand] add final

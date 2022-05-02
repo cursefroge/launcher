@@ -1,0 +1,9 @@
+teleport @p 0 4 -9 0 0
+gamemode survival @p
+clear @p
+give @p cobblestone 64
+give @p minecraft:diamond_pickaxe{Unbreakable:1b,Enchantments:[{id:"minecraft:efficiency",lvl:5s}]} 1
+give @p minecraft:cobblestone_slab 64
+give @p obsidian 64
+kill @e[tag=spawn,tag=!final,type=armor_stand]
+replaceitem entity @p hotbar.8 minecraft:armor_stand{display:{Name:'{"text":"Spawn","color":"aqua","italic":false}',Lore:['{"text":"the map will place you at this spot when you start","color":"yellow","italic":false}']},EntityTag:{NoGravity:1b,Tags:["spawn"]}} 1

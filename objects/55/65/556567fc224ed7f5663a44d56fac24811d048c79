@@ -1,0 +1,27 @@
+execute as @a[nbt={Dimension:"minecraft:overworld"}] in minecraft:the_end run teleport @p 12.5 64.00 -39.5 0 0
+execute as @a[nbt={Dimension:0}] in minecraft:the_end run teleport @p 12.5 64.00 -39.5 0 0
+execute in minecraft:the_end if block 12 65 -37 minecraft:birch_button[powered=true] run function findseed:resetfight
+execute in minecraft:the_end if block 12 65 -37 minecraft:birch_button[powered=true] run setblock 12 65 -37 birch_button
+execute in minecraft:the_end if block -1 61 0 minecraft:birch_button[powered=true] run function findseed:endfight
+execute in minecraft:the_end if block -1 61 0 minecraft:birch_button[powered=true] run setblock -1 61 0 minecraft:birch_button[face=floor]
+effect give @a minecraft:fire_resistance 5 0 true
+effect give @a minecraft:saturation 5 0 true
+bossbar set minecraft:dragon name {"text":"Ender Dargeon","color":"white","italic":false}
+scoreboard objectives setdisplay sidebar Dargeon
+scoreboard players set #Health2 Dargeon 0
+scoreboard players operation #Health2 Dargeon = Health Dargeon
+execute store result score Health Dargeon run data get entity @e[type=minecraft:ender_dragon,limit=1] Health 1
+execute if score Health Dargeon < #Health2 Dargeon run function findseed:printdmg
+bossbar set minecraft:dragon max 200
+execute store result bossbar minecraft:dragon value run scoreboard players get Health Dargeon
+kill @e[type=ender_dragon,nbt={DragonPhase:0}]
+kill @e[type=ender_dragon,nbt={DragonPhase:1}]
+kill @e[type=ender_dragon,nbt={DragonPhase:4}]
+kill @e[type=ender_dragon,nbt={DragonPhase:5}]
+kill @e[type=ender_dragon,nbt={DragonPhase:6}]
+kill @e[type=ender_dragon,nbt={DragonPhase:7}]
+kill @e[type=ender_dragon,nbt={DragonPhase:8}]
+kill @e[type=ender_dragon,nbt={DragonPhase:9}]
+kill @e[type=ender_dragon,nbt={DragonPhase:10}]
+bossbar set minecraft:dragon players @a
+execute if score dist signs matches 0..0 run function findseed:dragondist

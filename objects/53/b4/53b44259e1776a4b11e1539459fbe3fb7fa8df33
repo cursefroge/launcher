@@ -1,0 +1,11 @@
+gamemode adventure @p
+tp @p 90 26 1 0 0
+execute at @p if entity @p[tag=editor] run playsound minecraft:block.anvil.use ambient @p
+
+# Activate structure blocks
+setblock 56 21 11 minecraft:redstone_block
+setblock 56 21 11 air
+setblock 56 21 -9 minecraft:redstone_block
+setblock 56 21 -9 air
+setblock 56 21 -29 minecraft:redstone_block
+setblock 56 21 -29 air

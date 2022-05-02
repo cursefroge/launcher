@@ -1,0 +1,20 @@
+execute if score notch signs matches 5.. run scoreboard players set notch signs 0
+execute if score msg signs matches 2.. run scoreboard players set msg signs 0
+execute if score dia signs matches 2.. run scoreboard players set dia signs 0
+execute if score dist signs matches 2.. run scoreboard players set dist signs 0
+execute if score notch signs matches 0..0 run data merge entity @e[tag=notch,limit=1] {CustomName:'{"text":"Smooth"}'}
+execute if score notch signs matches 1..1 run data merge entity @e[tag=notch,limit=1] {CustomName:'{"text":"Six"}'}
+execute if score notch signs matches 2..2 run data merge entity @e[tag=notch,limit=1] {CustomName:'{"text":"Ten"}'}
+execute if score notch signs matches 3..3 run data merge entity @e[tag=notch,limit=1] {CustomName:'{"text":"Twelve"}'}
+execute if score notch signs matches 4..4 run data merge entity @e[tag=notch,limit=1] {CustomName:'{"text":"Twenty"}'}
+execute if score notch signs matches 0..0 run bossbar set minecraft:dragon style progress
+execute if score notch signs matches 1..1 run bossbar set minecraft:dragon style notched_6
+execute if score notch signs matches 2..2 run bossbar set minecraft:dragon style notched_10
+execute if score notch signs matches 3..3 run bossbar set minecraft:dragon style notched_12
+execute if score notch signs matches 4..4 run bossbar set minecraft:dragon style notched_20
+execute if score msg signs matches 0..0 run data merge entity @e[tag=msg,limit=1] {CustomName:'{"text":"Yes"}'}
+execute if score msg signs matches 1..1 run data merge entity @e[tag=msg,limit=1] {CustomName:'{"text":"No"}'}
+execute if score dia signs matches 0..0 run data merge entity @e[tag=dia,limit=1] {CustomName:'{"text":"Yes"}'}
+execute if score dia signs matches 1..1 run data merge entity @e[tag=dia,limit=1] {CustomName:'{"text":"No"}'}
+execute if score dist signs matches 0..0 run data merge entity @e[tag=dist,limit=1] {CustomName:'{"text":"Yes"}'}
+execute if score dist signs matches 1..1 run data merge entity @e[tag=dist,limit=1] {CustomName:'{"text":"No"}'}

@@ -1,0 +1,23 @@
+advancement revoke @s only end-practice:fountain_preset_3
+tp @p 70 23 -20 90 0
+gamemode creative @p
+tag @p add editor
+execute at @s run playsound minecraft:block.respawn_anchor.charge ambient @s
+
+# Give common items
+replaceitem entity @p hotbar.0 obsidian
+replaceitem entity @p hotbar.1 respawn_anchor
+replaceitem entity @p hotbar.2 glowstone
+replaceitem entity @p hotbar.3 cobblestone
+replaceitem entity @p hotbar.4 cobblestone_slab
+replaceitem entity @p hotbar.5 armor_stand{display: {Lore: ['[{"text":"Place this where","italic":false}]', '[{"text":"you want to spawn","italic":false}]'], Name: '[{"text":"Spawn","italic":"false"}]'}}
+
+# Place save signs
+setblock 65 23 -21 minecraft:crimson_wall_sign[facing=north]
+setblock 66 23 -20 minecraft:crimson_wall_sign[facing=east]
+setblock 65 23 -19 minecraft:crimson_wall_sign[facing=south]
+setblock 64 23 -20 minecraft:crimson_wall_sign[facing=west]
+data merge block 65 23 -21 {Text1:'{"text":"","clickEvent":{"action":"run_command","value":"execute in the_end run function end-practice:fountain_presets/fountain_preset_save"}}',Text2:'{"text":"CLICK TO","bold":true,"color":"white"}',Text3:'{"text":"SAVE","bold":true,"color":"white"}'}
+data merge block 66 23 -20 {Text1:'{"text":"","clickEvent":{"action":"run_command","value":"execute in the_end run function end-practice:fountain_presets/fountain_preset_save"}}',Text2:'{"text":"CLICK TO","bold":true,"color":"white"}',Text3:'{"text":"SAVE","bold":true,"color":"white"}'}
+data merge block 65 23 -19 {Text1:'{"text":"","clickEvent":{"action":"run_command","value":"execute in the_end run function end-practice:fountain_presets/fountain_preset_save"}}',Text2:'{"text":"CLICK TO","bold":true,"color":"white"}',Text3:'{"text":"SAVE","bold":true,"color":"white"}'}
+data merge block 64 23 -20 {Text1:'{"text":"","clickEvent":{"action":"run_command","value":"execute in the_end run function end-practice:fountain_presets/fountain_preset_save"}}',Text2:'{"text":"CLICK TO","bold":true,"color":"white"}',Text3:'{"text":"SAVE","bold":true,"color":"white"}'}

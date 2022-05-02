@@ -1,0 +1,15 @@
+tag @e[type=ender_dragon,limit=2] add c
+tag @e[type=ender_dragon,limit=1] remove c
+execute as @e[tag=c] at @s run summon area_effect_cloud ~ ~ ~ {Tags:["g"]}
+execute store result entity @e[tag=g,limit=1] Pos[0] double 1 run data get entity @e[tag=g,limit=1] Pos[0] 10
+execute store result entity @e[tag=g,limit=1] Pos[1] double 1 run data get entity @e[tag=g,limit=1] Pos[1] 10
+execute store result entity @e[tag=g,limit=1] Pos[2] double 1 run data get entity @e[tag=g,limit=1] Pos[2] 10
+scoreboard players add Xdist signs 0
+execute as @e[tag=g] at @s positioned ~49 ~ ~1072 store result score Xdist signs run locate endcity
+scoreboard players set 10 signs 10
+scoreboard players set a signs 0
+scoreboard players operation a signs = Xdist signs
+scoreboard players operation a signs /= 10 signs
+scoreboard players operation Xdist signs %= 10 signs
+title @a actionbar ["",{"score":{"name":"a","objective":"signs"}},{"text":"."},{"score":{"name":"Xdist","objective":"signs"}}]
+kill @e[type=area_effect_cloud]

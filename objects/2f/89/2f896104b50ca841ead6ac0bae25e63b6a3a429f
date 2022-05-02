@@ -1,0 +1,42 @@
+scoreboard players set eye signs 0
+summon minecraft:area_effect_cloud ~ ~ ~ {Passengers:[{id:"area_effect_cloud"},{id:"area_effect_cloud"},{id:"area_effect_cloud"},{id:"area_effect_cloud"},{id:"area_effect_cloud"},{id:"area_effect_cloud"},{id:"area_effect_cloud"},{id:"area_effect_cloud"},{id:"area_effect_cloud"}]}
+tag @e[type=area_effect_cloud,sort=random,limit=1] add yes
+execute as @e[type=minecraft:area_effect_cloud,limit=1,sort=random] if entity @s[tag=yes] run scoreboard players add eye signs 1
+tag @e[tag=yes] remove yes
+tag @e[type=area_effect_cloud,sort=random,limit=1] add yes
+execute as @e[type=minecraft:area_effect_cloud,limit=1,sort=random] if entity @s[tag=yes] run scoreboard players add eye signs 1
+tag @e[tag=yes] remove yes
+tag @e[type=area_effect_cloud,sort=random,limit=1] add yes
+execute as @e[type=minecraft:area_effect_cloud,limit=1,sort=random] if entity @s[tag=yes] run scoreboard players add eye signs 1
+tag @e[tag=yes] remove yes
+tag @e[type=area_effect_cloud,sort=random,limit=1] add yes
+execute as @e[type=minecraft:area_effect_cloud,limit=1,sort=random] if entity @s[tag=yes] run scoreboard players add eye signs 1
+tag @e[tag=yes] remove yes
+tag @e[type=area_effect_cloud,sort=random,limit=1] add yes
+execute as @e[type=minecraft:area_effect_cloud,limit=1,sort=random] if entity @s[tag=yes] run scoreboard players add eye signs 1
+tag @e[tag=yes] remove yes
+tag @e[type=area_effect_cloud,sort=random,limit=1] add yes
+execute as @e[type=minecraft:area_effect_cloud,limit=1,sort=random] if entity @s[tag=yes] run scoreboard players add eye signs 1
+tag @e[tag=yes] remove yes
+tag @e[type=area_effect_cloud,sort=random,limit=1] add yes
+execute as @e[type=minecraft:area_effect_cloud,limit=1,sort=random] if entity @s[tag=yes] run scoreboard players add eye signs 1
+tag @e[tag=yes] remove yes
+tag @e[type=area_effect_cloud,sort=random,limit=1] add yes
+execute as @e[type=minecraft:area_effect_cloud,limit=1,sort=random] if entity @s[tag=yes] run scoreboard players add eye signs 1
+tag @e[tag=yes] remove yes
+tag @e[type=area_effect_cloud,sort=random,limit=1] add yes
+execute as @e[type=minecraft:area_effect_cloud,limit=1,sort=random] if entity @s[tag=yes] run scoreboard players add eye signs 1
+tag @e[tag=yes] remove yes
+tag @e[type=area_effect_cloud,sort=random,limit=1] add yes
+execute as @e[type=minecraft:area_effect_cloud,limit=1,sort=random] if entity @s[tag=yes] run scoreboard players add eye signs 1
+tag @e[tag=yes] remove yes
+tag @e[type=area_effect_cloud,sort=random,limit=1] add yes
+execute as @e[type=minecraft:area_effect_cloud,limit=1,sort=random] if entity @s[tag=yes] run scoreboard players add eye signs 1
+tag @e[tag=yes] remove yes
+tag @e[type=area_effect_cloud,sort=random,limit=1] add yes
+execute as @e[type=minecraft:area_effect_cloud,limit=1,sort=random] if entity @s[tag=yes] run scoreboard players add eye signs 1
+tag @e[tag=yes] remove yes
+tellraw @p ["",{"selector":"@p","color":"white"},{"text":" --> your seed is a ","color":"white"},{"score":{"name":"eye","objective":"signs"},"bold":true,"color":"gold"},{"text":" eye.","color":"white"}]
+setblock 12 64 -44 air
+scoreboard players add runs signs 1
+execute if score runs signs matches 69..69 run tellraw @p ["",{"text":"You've pressed this 69 times. At this point you might as well go play !findseed the map @ ","color":"gold"},{"text":"https://discord.gg/EzVPXsf","bold":true,"color":"aqua","clickEvent":{"action":"open_url","value":"https://discord.gg/EzVPXsf"}}]

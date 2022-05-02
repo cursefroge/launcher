@@ -1,0 +1,12 @@
+gamerule commandBlockOutput false
+gamerule doMobSpawning false
+gamerule doDaylightCycle false
+gamerule sendCommandFeedback false
+gamerule doFireTick false
+tp @s -26 65 -5 
+gamemode adventure @s
+spawnpoint @s -26 65 -5
+setworldspawn -26 65 -5
+effect give @s night_vision 1000000 100 true
+effect give @s saturation 1000000 100 true
+tag @s add init

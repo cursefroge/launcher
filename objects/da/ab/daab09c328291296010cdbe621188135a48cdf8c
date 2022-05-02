@@ -1,0 +1,54 @@
+# Generate random number for island and node
+execute if score island Settings matches 5 run function end-practice:rng/random_island
+execute if score startNode Settings matches 2 run function end-practice:rng/random_node
+
+# Load island based on selection
+execute if score island Settings matches 0 if score startNode Settings matches 0 run function end-practice:islands/taiga/taiga_front
+execute if score island Settings matches 0 if score startNode Settings matches 1 run function end-practice:islands/taiga/taiga_back
+execute if score island Settings matches 0 if score startNode Settings matches 2 if score node rng matches 0 run function end-practice:islands/taiga/taiga_front
+execute if score island Settings matches 0 if score startNode Settings matches 2 if score node rng matches 1 run function end-practice:islands/taiga/taiga_back
+
+execute if score island Settings matches 1 if score startNode Settings matches 0 run function end-practice:islands/dolphin/dolphin_front
+execute if score island Settings matches 1 if score startNode Settings matches 1 run function end-practice:islands/dolphin/dolphin_back
+execute if score island Settings matches 1 if score startNode Settings matches 2 if score node rng matches 0 run function end-practice:islands/dolphin/dolphin_front
+execute if score island Settings matches 1 if score startNode Settings matches 2 if score node rng matches 1 run function end-practice:islands/dolphin/dolphin_back
+
+execute if score island Settings matches 2 if score startNode Settings matches 0 run function end-practice:islands/gravel/gravel_front
+execute if score island Settings matches 2 if score startNode Settings matches 1 run function end-practice:islands/gravel/gravel_back
+execute if score island Settings matches 2 if score startNode Settings matches 2 if score node rng matches 0 run function end-practice:islands/gravel/gravel_front
+execute if score island Settings matches 2 if score startNode Settings matches 2 if score node rng matches 1 run function end-practice:islands/gravel/gravel_back
+
+execute if score island Settings matches 3 if score startNode Settings matches 0 run function end-practice:islands/wide/wide_front
+execute if score island Settings matches 3 if score startNode Settings matches 1 run function end-practice:islands/wide/wide_back
+execute if score island Settings matches 3 if score startNode Settings matches 2 if score node rng matches 0 run function end-practice:islands/wide/wide_front
+execute if score island Settings matches 3 if score startNode Settings matches 2 if score node rng matches 1 run function end-practice:islands/wide/wide_back
+
+execute if score island Settings matches 4 if score startNode Settings matches 0 run function end-practice:islands/hill/hill_front
+execute if score island Settings matches 4 if score startNode Settings matches 1 run function end-practice:islands/hill/hill_back
+execute if score island Settings matches 4 if score startNode Settings matches 2 if score node rng matches 0 run function end-practice:islands/hill/hill_front
+execute if score island Settings matches 4 if score startNode Settings matches 2 if score node rng matches 1 run function end-practice:islands/hill/hill_back
+
+execute if score island Settings matches 5 if score island rng matches 0 if score startNode Settings matches 0 run function end-practice:islands/taiga/taiga_front
+execute if score island Settings matches 5 if score island rng matches 0 if score startNode Settings matches 1 run function end-practice:islands/taiga/taiga_back
+execute if score island Settings matches 5 if score island rng matches 0 if score startNode Settings matches 2 if score node rng matches 0 run function end-practice:islands/taiga/taiga_front
+execute if score island Settings matches 5 if score island rng matches 0 if score startNode Settings matches 2 if score node rng matches 1 run function end-practice:islands/taiga/taiga_back
+
+execute if score island Settings matches 5 if score island rng matches 1 if score startNode Settings matches 0 run function end-practice:islands/dolphin/dolphin_front
+execute if score island Settings matches 5 if score island rng matches 1 if score startNode Settings matches 1 run function end-practice:islands/dolphin/dolphin_back
+execute if score island Settings matches 5 if score island rng matches 1 if score startNode Settings matches 2 if score node rng matches 0 run function end-practice:islands/dolphin/dolphin_front
+execute if score island Settings matches 5 if score island rng matches 1 if score startNode Settings matches 2 if score node rng matches 1 run function end-practice:islands/dolphin/dolphin_back
+
+execute if score island Settings matches 5 if score island rng matches 2 if score startNode Settings matches 0 run function end-practice:islands/gravel/gravel_front
+execute if score island Settings matches 5 if score island rng matches 2 if score startNode Settings matches 1 run function end-practice:islands/gravel/gravel_back
+execute if score island Settings matches 5 if score island rng matches 2 if score startNode Settings matches 2 if score node rng matches 0 run function end-practice:islands/gravel/gravel_front
+execute if score island Settings matches 5 if score island rng matches 2 if score startNode Settings matches 2 if score node rng matches 1 run function end-practice:islands/gravel/gravel_back
+
+execute if score island Settings matches 5 if score island rng matches 3 if score startNode Settings matches 0 run function end-practice:islands/wide/wide_front
+execute if score island Settings matches 5 if score island rng matches 3 if score startNode Settings matches 1 run function end-practice:islands/wide/wide_back
+execute if score island Settings matches 5 if score island rng matches 3 if score startNode Settings matches 2 if score node rng matches 0 run function end-practice:islands/wide/wide_front
+execute if score island Settings matches 5 if score island rng matches 3 if score startNode Settings matches 2 if score node rng matches 1 run function end-practice:islands/wide/wide_back
+
+execute if score island Settings matches 5 if score island rng matches 4 if score startNode Settings matches 0 run function end-practice:islands/hill/hill_front
+execute if score island Settings matches 5 if score island rng matches 4 if score startNode Settings matches 1 run function end-practice:islands/hill/hill_back
+execute if score island Settings matches 5 if score island rng matches 4 if score startNode Settings matches 2 if score node rng matches 0 run function end-practice:islands/hill/hill_front
+execute if score island Settings matches 5 if score island rng matches 4 if score startNode Settings matches 2 if score node rng matches 1 run function end-practice:islands/hill/hill_back
